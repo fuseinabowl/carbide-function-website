@@ -4,6 +4,7 @@ section {
 }
 
 body {
+  background-color: #385493;
   font-style: normal;
   line-height: 1.5;
   font-weight: 400;
@@ -747,6 +748,7 @@ input[type=range] {
 
 html,
 body {
+  background-color: #385493;
   height: auto;
   min-height: 100vh;
 }
