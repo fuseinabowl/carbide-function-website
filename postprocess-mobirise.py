@@ -29,7 +29,7 @@ def find_html_files_in_directory(directory : Path) -> List[Path]:
 def remove_mobirise_footer(file_path : Path) -> None:
   print(f'loading path {file_path}')
   with open(file_path, 'r') as file_handle:
-    soup = BeautifulSoup(file_handle.read())
+    soup = BeautifulSoup(file_handle.read(), features="html.parser")
 
   sections = soup.find_all('section')
   for section in sections:
@@ -50,7 +50,7 @@ def add_background_to_css() -> None:
         if line.startswith('body {'):
           found_body_tag = True
           destination_file.write('  background-color: #385493;\n')
-  assert(found_body_tag, 'did not find body tag in CSS file')
+  assert found_body_tag, 'did not find body tag in CSS file'
   move_temp_file_to_css(temp_path, css_path)
 
 
