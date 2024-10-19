@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Carbide Function",
-    "currentPage": "contracting.html",
+    "currentPage": "contact.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -967,7 +967,8 @@
       "settings": {
         "title": "Carbide Function | Wildtile",
         "order": "2",
-        "meta_descr": "Wildtile is a Unity Plugin allowing environment artists and level designers to work together using 3D autotiling."
+        "meta_descr": "Wildtile is a Unity Plugin allowing environment artists and level designers to work together using 3D autotiling.",
+        "meta_image": "@PROJECT_PATH@/assets/images/wildtile%20store%20page-905x603.png"
       },
       "components": [
         {
@@ -3768,7 +3769,8 @@
       "settings": {
         "title": "Carbide Function | Contracting",
         "order": "3",
-        "meta_descr": "Wildtile is a Unity Plugin allowing environment artists and level designers to work together using 3D autotiling."
+        "meta_descr": "Wildtile is a Unity Plugin allowing environment artists and level designers to work together using 3D autotiling.",
+        "meta_image": "@PROJECT_PATH@/assets/images/composed-1036x1449.png"
       },
       "components": [
         {
